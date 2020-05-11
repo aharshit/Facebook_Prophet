@@ -17,3 +17,8 @@ h(t) represents the effects of holidays of durations longer than a day. Holidays
 e(t) covers the changes or errors that are not covered by the model.
   
 Prophet is an easy to use model. It is fast and it does not require data pre-processing. It works with missing data with several outliers. We will try to predict Apple Inc. stock prices Using Facebook’s Prophet. The daily stock prices for Apple Inc. can be downloaded from Yahoo Finance. Yahoo Finance is one of the leading sources for stock market data. We will get the data of Apple Inc. stock prices since 2015.
+## Prerequisites
+fbprophet, plotly
+```
+pip install -r requirements.txt
+```
